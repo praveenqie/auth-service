@@ -1,33 +1,70 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Ignore build output directories
+/build/
+/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Ignore temporary files
+*.class
+*.war
+*.ear
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Ignore logs
+*.log
+logs/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+# IntelliJ IDEA
+.idea/
 *.iml
-*.ipr
+*.iws
+out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Eclipse
+.project
+.classpath
+.settings/
+*.launch
 
-### VS Code ###
+# VSCode
 .vscode/
+
+# NetBeans
+/nbproject/private/
+/build/
+/dist/
+
+# Ignore dependency directories
+/.mvn/
+/.gradle/
+node_modules/
+
+# Ignore generated files
+*.jar
+*.exe
+*.dll
+*.so
+*.swp
+
+# Ignore test coverage data
+coverage/
+*.lcov
+
+# Ignore generated configuration
+*.properties
+*.config
+
+# Ignore security files
+*.pem
+*.crt
+*.key
+
+# Ignore sensitive files
+.env
+/secrets/
+
+.mvn/
+mvnw
+mvnw.cmd

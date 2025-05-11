@@ -1,10 +1,10 @@
-package com.qie.auth_service;
+package com.qie.developer.security;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AuthServiceApplicationTests {
+class DeveloperSecurityServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
